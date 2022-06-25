@@ -23,6 +23,6 @@ class HomeActivity : AppCompatActivity() {
     }
     fun show_contacts()
     {
-
+       // writing some code
     }
 }
