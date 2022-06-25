@@ -17,6 +17,12 @@ class HomeActivity : AppCompatActivity() {
         }
         btnAdd.setOnClickListener {
             // send alert to saved 10 contacts
+            show_contacts()
+
         }
+    }
+    fun show_contacts()
+    {
+
     }
 }
