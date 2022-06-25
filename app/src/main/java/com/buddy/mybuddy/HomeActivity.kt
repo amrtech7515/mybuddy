@@ -10,6 +10,8 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
         var btnSend=findViewById<Button>(R.id.btnSend)
         btnSend.setOnClickListener {
+            // send alert to saved 10 contacts
+
 
 
         }
