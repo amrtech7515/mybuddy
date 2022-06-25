@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">mybuddy</string>
+    <string name="rhewum">RHEWUM</string>
+    <string name="setting">Settings</string>
+    <string name="MachineManagement">Machine Management</string>
+    <string name="GeniusDriveNumber">Sensor Unit No. Number</string>
+    <string name="CustomerGeniusDriveName">Your Genius Drive Name</string>
+    <string name="MachineName">Your Machine Name</string>
+    <string name="RhewumMachineNumber">Machine Fabrication No.</string>
+    <string name="CustomerMachineName">Your Machine Name</string>
+    <string name="Email">User</string>
+    <string name="UpdateDeviceInformation">Motor Information</string>
+    <string name="EnterCustomerGeniusDriveName">Your Genius Drive Name</string>
+    <string name="EnterRhewumMachineNumber">Machine Fabrication No.</string>
+    <string name="EnterCustomerMachineName">Your Machine Name</string>
+    <string name="Telephone">Telephone :</string>
+    <string name="Address">Address :</string>
+    <string name="email">Email :</string>
+    <string name="tel">Telephone</string>
+    <string name="TeleFax">Telefax</string>
+    <string name="ReplyEmail">Reply Email</string>
+    <string name="Internet">Internet</string>
+    <string name="web">Web :</string>
+    <string name="Contact">Contact</string>
+    <string name="Maintenance">Maintenance</string>
+    <string name="GDName">Genius Drive Name</string>
+    <string name="GDNumber">Genius Drive Number</string>
+    <string name="LastUpdate">Last Updated :</string>
+    <string name="TRL">Theoretical Remaining Life [h]</string>
+    <string name="NMN">Next Maintenance Necessary [h]</string>
+    <string name="Warning">Warnings</string>
+    <string name="BluetoothAvailableDevices">Bluetooth Available Devices</string>
+    <string name="Bearing1">Bearing 1 [°C]</string>
+    <string name="Bearing2">Bearing 2 [°C]</string>
+    <string name="Housing">Housing [°C]</string>
+    <string name="Temperature">Temperatures</string>
+    <string name="Vibration">Vibrations</string>
+    <string name="LiveData">Actual Data</string>
+    <string name="XAxis">x-Axis</string>
+    <string name="YAxis">y-Axis</string>
+    <string name="ZAxis">z-Axis</string>
+    <string name="default_notification_channel_id">default_channel</string>
+    <string name="title">trademark of RHEWUM</string>
+    <string name="LastMaintenanceDate">Last\nrelubrication</string>
+    <string name="passsword_hint">*The passcodes can be found in the motor terminal box or the documentation.</string>
+    <string name="Welcome_message">Welcome to the Genius Drive Plus App</string>
+    <string name="trail_success_response">Register to start 30 days free trial</string>
+    <string name="reminder_message">days remaining of the current cycle.</string>
+    <string name="unsubscribe_done_message">You have un-subscribe.</string>
+    <string name="success_response">Thank You. You subscribed successfully.</string>
+    <string name="trailPeriodExpired_message">Trail period has ended.\nPlease subscribe to continue. </string>
+    <string name="subscriptionPeriodExpired_message">Your subscription has ended.Please subscribe to continue. </string>
+    <string name="deactivate_message">Your collected data will be deleted from device.\nare you sure? </string>
+    <string name="unsubscribe_message">Your collected data will be deleted from device once your subscription runs out.\nare you sure? </string>
+    <string name="error_message">Sorry, Something went wrong.\nDo you want to Retry?</string>
+    <string name="app_version">App Version :</string>
+
+    <string name="new_user_subscribe_message">
+        To use this app please register for the GeniusDrivePlus subscription!
+    It allows you access to all the features of this app for a monthly payment of €3.99 or yearly payment of €24.99.
+    </string>
+    <string name="txt_month_subscr">Subscribe for €3.99 / month</string>
+    <string name="txt_year_subscr">Subscribe for €24.99 / year</string>
+    <string name="sub_info">\u2022 your subscription will be charged to your iTunes account at confirmation
+    of purchase and will automatically renew at month unless auto-renew is turned off at least
+    24 hours before the end of the current period.
+    \n \u2022 Current subscription may not be cancelled during the active subscription period. however, you can manage your subscription and/or turn off auto renewal by visiting...</string>
+
+
+    <string-array name="Animals">
+        <item>Select Animal!!</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Elephant</item>
+        <item>Zebra</item>
+        <item>Giraffe</item>
+        <item>Deer</item>
+    </string-array>
+
+    <string-array name="Machines">
+        <item>Select Machines</item>
+        <item>Sujay</item>
+        <item>Suyash</item>
+        <item>Vinayak</item>
+        <item>Omkar</item>
+        <item>Anup</item>
+        <item>Ishwar</item>
+        <item>Sarvesh</item>
+        <item>Abhishek</item>
+        <item>Ashok</item>
+        <item>Umesh</item>
+        <item>Varun</item>
+        <item>Nutan</item>
+        <item>Reshma</item>
+        <item>Ruturaj</item>
+        <item>Amol</item>
+    </string-array>
+
+    <string-array name="Motors1">
+        <item>Select Motor 1</item>
+        <item>rpi-model-1</item>
+        <item>rpi-model-2</item>
+        <item>rpi-model-3</item>
+        <item>rpi-model-5</item>
+        <item>rpi-model-6</item>
+        <item>rpi-model-7</item>
+        <item>rpi-model-8</item>
+        <item>rpi-model-9</item>
+        <item>rpi-model-10</item>
+        <item>rpi-model-11</item>
+        <item>rpi-model-12</item>
+        <item>rpi-model-13</item>
+        <item>amol-299</item>
+        <item>reshma254</item>
+        <item>sujay-motor</item>
+        <item>vin-model-215</item>
+        <item>vishalsMotor</item>
+        <item>abhi125</item>
+        <item>abhi1</item>
+        <item>abhi@@@</item>
+        <item>abhi*123</item>
+        <item>Anup-model-test</item>
+        <item>nitish-rpi</item>
+        <item>umesh-333</item>
+        <item>omkar-model-2</item>
+        <item>test-rpi-model</item>
+
+    </string-array>
+
+    <string-array name="Motors2">
+        <item>Select Motor 2</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Elephant</item>
+        <item>Zebra</item>
+        <item>Giraffe</item>
+        <item>Deer</item>
+    </string-array>
+
+</resources>

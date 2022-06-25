@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome_message"
+        style="@style/TextSubscribeDialog"
+        android:textSize="24sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_user_subscribe_message"
+        android:justificationMode="inter_word"
+        style="@style/TextSubscribeDialog"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_month_subscr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_button"
+        android:gravity="center"
+        android:text="@string/txt_month_subscr"
+        android:textAllCaps="false"
+        android:textColor="#FFFF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or"
+        style="@style/TextSubscribeDialog"
+        android:textSize="20sp"
+        android:layout_margin="30dp">
+    </TextView>
+    <Button
+        android:id="@+id/btn_year_subscr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/input_button"
+        android:gravity="center"
+        android:text="@string/txt_year_subscr"
+        android:textAllCaps="false"
+        android:textColor="#FFFF" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
