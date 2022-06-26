@@ -23,7 +23,7 @@ class HomeActivity : AppCompatActivity() {
     }
     fun show_contacts()
     {
-        //add contacts in this fun
+        //add contacts in this fun...i changed
     }
    }
 //en again working
