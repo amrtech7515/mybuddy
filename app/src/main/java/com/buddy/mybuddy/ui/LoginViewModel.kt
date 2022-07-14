@@ -1,4 +1,4 @@
-package com.buddy.mybuddy
+package com.buddy.mybuddy.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

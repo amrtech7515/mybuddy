@@ -1,4 +1,4 @@
-package com.buddy.mybuddy
+package com.buddy.mybuddy.ui
 
 import android.content.Context
 import android.content.SharedPreferences

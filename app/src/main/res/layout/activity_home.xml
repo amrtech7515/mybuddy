@@ -5,21 +5,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    tools:context=".HomeActivity"
+    tools:context=".ui.HomeActivity"
     android:orientation="vertical">
+    <include layout="@layout/activity_toolbar"/>
     <Button
         android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="Add Buddy"
         android:layout_gravity="center"/>
     <Button
         android:id="@+id/btnSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="Send"
         android:layout_gravity="center"/>
+    <ListView
+        android:id="@+id/contactlist"
+        android:background="@color/Green"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

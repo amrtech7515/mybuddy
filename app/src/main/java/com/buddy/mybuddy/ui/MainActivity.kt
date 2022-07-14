@@ -1,19 +1,14 @@
-package com.buddy.mybuddy
+package com.buddy.mybuddy.ui
 
 import android.app.Activity
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import android.widget.ToggleButton
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.android.billingclient.api.BillingClient
+import com.buddy.mybuddy.R
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -33,8 +28,8 @@ open class MainActivity : AppCompatActivity() {
     lateinit var sharedpreferences: SharedPreferences
 
     lateinit var txtLogin: TextView
-    var frgHome=HomeFragment()
-    var frgMain=MainFragment()
+
+
     open lateinit var vm: LoginViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,8 +38,6 @@ open class MainActivity : AppCompatActivity() {
 
         vm = ViewModelProvider(this, viewModelFactory).get(LoginViewModel::class.java)
         sharedpreferences = this.getSharedPreferences("mybuddy_pref", Activity.MODE_PRIVATE);
-
-        txtLogin=findViewById(R.id.txtLogin)
 
         FirebaseApp.initializeApp(applicationContext)
 
@@ -70,11 +63,11 @@ open class MainActivity : AppCompatActivity() {
         vm.loginstatus.observe(this, { v ->
             if(v) {
                 txtLogin.text = "Logout"
-                showFragment(frgHome)
+              //  showFragment(frgHome)
             }
             else {
                 txtLogin.text = "Login"
-                showFragment(frgMain)
+               // showFragment(frgMain)
             }
         })
 
@@ -169,14 +162,6 @@ open class MainActivity : AppCompatActivity() {
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
         firebaseAuth = FirebaseAuth.getInstance()
 
-    }
-
-
-    fun showFragment(fragment: Fragment){
-        Log.i("chk res->","i m in frg")
-        val fram = supportFragmentManager.beginTransaction()
-        fram.replace(R.id.container,fragment)
-        fram.commit()
     }
 
 }

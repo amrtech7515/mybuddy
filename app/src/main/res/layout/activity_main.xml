@@ -5,17 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/black"
+    tools:context=".ui.MainActivity"
+
     android:orientation="vertical">
-    <include layout="@layout/activity_toolbar" />
 
-
-<androidx.fragment.app.FragmentContainerView
+<TextView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/container"
-
-    android:background="@color/white"/>
+    android:text="I m in main"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

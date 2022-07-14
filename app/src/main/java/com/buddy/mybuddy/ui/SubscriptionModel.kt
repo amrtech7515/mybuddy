@@ -1,4 +1,4 @@
-package com.buddy.mybuddy
+package com.buddy.mybuddy.ui
 
 class SubscriptionModel(
     var userId: String?,

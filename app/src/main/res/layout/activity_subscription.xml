@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    tools:context=".ui.SubscriptionActivity">
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
+        <!-- TODO: Update blank fragment layout -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="hiiiii"
             android:layout_marginTop="40dp"
             android:id="@+id/txtMonthly"/>
-    <Button
-        android:id="@+id/btnMonthly"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Monthly Subscription"/>
+        <Button
+            android:id="@+id/btnMonthly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monthly Subscription"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="hiiiiii"
             android:layout_marginTop="40dp"
             android:id="@+id/txtYearly"/>
-    <Button
-        android:id="@+id/btnYearly"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Yearly Subscription"/>
+        <Button
+            android:id="@+id/btnYearly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yearly Subscription"/>
     </androidx.appcompat.widget.LinearLayoutCompat>
-
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

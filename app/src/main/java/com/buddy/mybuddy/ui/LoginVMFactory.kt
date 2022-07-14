@@ -1,4 +1,4 @@
-package com.buddy.mybuddy
+package com.buddy.mybuddy.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
